@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report
+            id="action_report_sale_order_ticket"
+            string="Ticket"
+            model="sale.order"
+            report_type="qweb-pdf"
+            name="salereport_jss.report_receipt"
+            file="salereport_jss.report_receipt"
+        />
+    </data>
+</openerp>
