@@ -11,11 +11,12 @@
 Reporte venta tipo ticket
 """,
     'images': [],
-    'depends': [],
+    'depends': ['sale'],
     'data': [
         'report.xml',
         'report_paperformat.xml',
-        'report_receipt.xml'
+        'report_receipt.xml',
+        'sale_view.xml'
     ],
     'installable': True,
     'auto_install': False,

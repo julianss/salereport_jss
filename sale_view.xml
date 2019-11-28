@@ -1,0 +1,14 @@
+ <odoo>
+    <data>
+        <record id="view_order_form_inh" model="ir.ui.view">
+            <field name="name">sale.order.form.inh</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <button name="print_quotation" position="after">
+                    <button name="print_ticket" type="object" string="Ticket"/>
+                </button>
+            </field>
+        </record>
+    </data>
+</odoo>
